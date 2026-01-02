@@ -1,29 +1,29 @@
 # Simple Web Honeypot (Python)
 
-An educational Web Honeypot built in Python. It simulates a fake administration panel to capture login attempts.
+Un Honeypot Web educativo desarrollado en Python. Simula un panel de administración falso para capturar intentos de login.
 
-## Features
-It starts a web server on port `5000`.
-- Displays a fake "Administration Panel".
-- **Captures all credentials** (Username and Password) attempted.
-- Displays stolen credentials in the console and saves them to `honeypot.log`.
+## Funcionalidad
+El proyecto levanta un servidor web en el puerto `5000`.
+- Muestra un panel de Login ("Administration Panel").
+- **Captura cualquier credencial** (Usuario y Contraseña) que se intente usar.
+- Muestra las credenciales robadas en la consola y las guarda en `honeypot.log`.
 
-## Project Map
+## Mapa del Proyecto
 ```bash
 simple_honeypot/
 ├── templates/
-│   └── login.html      # Login panel HTML template
-├── honeypot.log        # Hack attempt logs
-├── main.py             # Main application (Flask)
-├── requirements.txt    # Project dependencies
+│   └── login.html      # Plantilla HTML del panel de login
+├── honeypot.log        # Logs de intentos de hackeo
+├── main.py             # Aplicación principal (Flask)
+├── requirements.txt    # Dependencias del proyecto
 ```
 
-## Usage
+## Instalación y Uso
 
-1. **Open in VSCode**.
-2. **Install Dependencies**: Run `pip install -r requirements.txt` in the terminal.
-3. **Run**: Press `F5` or `python main.py`.
-4. **Test**: Go to `http://localhost:5000` in your browser, enter user/pass, and watch the terminal.
+1. **Abrir en VSCode**.
+2. **Instalar Dependencias**: Ejecuta `pip install -r requirements.txt` en la terminal.
+3. **Ejecutar**: Presiona `F5` o corre `python main.py`.
+4. **Probar**: Ve a tu navegador `http://localhost:5000`, escribe usuario/contraseña y mira la terminal.
 
-## Legal Note
-For educational purposes only.
+## Nota Legal
+Solo para fines educativos.
