@@ -20,10 +20,10 @@ simple_honeypot/
 
 ## Usage
 
-1. **Open in VSCode**.
-2. **Install Dependencies**: Run `pip install -r requirements.txt` in the terminal.
-3. **Run**: Press `F5` or `python main.py`.
-4. **Test**: Go to `http://localhost:5000` in your browser, enter user/pass, and watch the terminal.
+1. **Install Dependencies**: Run `pip install -r requirements.txt` in the terminal.
+2. **Run**: `python main.py`.
+3. **Test**: Go to `http://localhost:5000` in your browser, enter user/pass, and watch the `honeypot.log`.
 
 ## Legal Note
 For educational purposes only.
+
